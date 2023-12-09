@@ -1,0 +1,10 @@
+Task 8  [Day 2] Log analysis O Data, All Ye Faithful
+
+Q: How many packets were captured (looking at the PacketNumber)?
+Ans: 100
+
+Q: What IP address sent the most amount of traffic during the packet capture?
+Ans: 10.10.1.4
+
+Q: What was the most frequent protocol?
+Ans: ICMP
