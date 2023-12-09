@@ -1,16 +1,16 @@
 Task 14  [Day 8] Disk forensics: Have a Holly, Jolly Byte!
 
 Q:What is the malware C2 server?
-Ans: 
+Ans: mcgreedysecretc2.thm
 
 Q:What is the file inside the deleted zip archive?
-Ans:
+Ans:JuicyTomaTOY.exe
 
 Q:What flag is hidden in one of the deleted PNG files?
-Ans:
+Ans: THM{byt3-L3vel_@n4Lys15}
 
 Q:What is the SHA1 hash of the physical drive and forensic image?
-Ans:
+Ans: 39f2dea6ffb43bf80d80f19d122076b3682773c2
 
 
 
