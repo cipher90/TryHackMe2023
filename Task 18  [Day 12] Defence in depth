@@ -1,0 +1,19 @@
+Task 18  [Day 12] Defence in depth Sleighing Threats, One Layer at a Time
+
+Q: What is the default port for Jenkins?
+Ans: 8080
+
+Q: What is the password of the user tracy?
+Ans: 13_1n_33
+
+Q: What's the root flag?
+Ans: ezRo0tW1thoutDiD
+
+Q: What is the error message when you login as tracy again and try sudo -l after its removal from the sudoers group?
+Ans: Sorry, user tracy may not run sudo on jenkins.
+
+Q: What's the SSH flag?
+Ans: Ne3d2SecureTh1sSecureSh31l
+
+Q: What's the Jenkins flag?
+Ans: FullTrust_has_n0_Place1nS3cur1ty
